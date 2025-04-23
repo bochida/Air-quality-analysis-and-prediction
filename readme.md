@@ -7,6 +7,7 @@ This project focuses on analyzing and forecasting **PM2.5 pollution levels** acr
 ## 📁 Dataset
 
 The dataset includes:
+
 • Rank: The ranking of cities based on their annual average PM2.5 concentration (μg/m³).
 
 • City: The name of the city.
