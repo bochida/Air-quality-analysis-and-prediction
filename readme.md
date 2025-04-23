@@ -8,9 +8,13 @@ This project focuses on analyzing and forecasting **PM2.5 pollution levels** acr
 
 The dataset includes:
 • Rank: The ranking of cities based on their annual average PM2.5 concentration (μg/m³).
+
 • City: The name of the city.
+
 • 2023: The average pollution index for the year 2023.
+
 • Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec: Monthly pollution levels from January to December.
+
 • Country: The corresponding country for each city.
 
 > **Source**: Aggregated dataset with air quality data from Asian cities, including Kazakhstan.
