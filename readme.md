@@ -1,37 +1,61 @@
 # 🌫️ PM2.5 Pollution Level Analysis and Forecasting in Kazakhstan Cities (2023)
 
-## 📌 Project Overview
+## 📌 Project Title  
+**PM2.5 Pollution Level Analysis and Forecasting in Kazakhstan Cities (2023)**
 
-This project focuses on analyzing and forecasting **PM2.5 pollution levels** across major cities in **Kazakhstan** for the year **2023**. It uses real-world data covering monthly PM2.5 concentrations, applies **data cleaning and visualization techniques**, and implements **machine learning models** to predict future pollution trends.
+## 📖 Introduction  
+This project analyzes and forecasts PM2.5 air pollution levels in major cities across Kazakhstan for the year 2023. Utilizing real-world air quality data, we performed data cleaning, visualization, and predictive modeling to understand pollution patterns and predict future air quality trends.
 
-## 📁 Dataset
+## ❗ Problem Statement  
+Air pollution poses significant health risks, particularly fine particulate matter (PM2.5), which can penetrate deep into the lungs and bloodstream. In Kazakhstan, tracking and forecasting PM2.5 levels are crucial for developing preventive measures, policy planning, and raising public awareness. This project addresses the lack of accessible, city-specific air quality forecasting in Kazakhstan.
 
-The dataset includes:
+## 🎯 Objectives  
+- Clean and preprocess the PM2.5 dataset for Kazakhstan cities  
+- Analyze monthly and annual pollution trends across cities  
+- Visualize seasonal and geographical pollution patterns  
+- Develop and evaluate machine learning models to forecast PM2.5 levels  
+- Provide actionable insights through forecasting and comparisons
 
-• Rank: The ranking of cities based on their annual average PM2.5 concentration (μg/m³).
+## 🛠️ Technology Stack  
+- **Languages**: Python  
+- **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels  
+- **Tools**: Jupyter Notebook, Kaggle  
+- **Others**: Git, GitHub for version control
 
-• City: The name of the city.
-
-• 2023: The average pollution index for the year 2023.
-
-• Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec: Monthly pollution levels from January to December.
-
-• Country: The corresponding country for each city.
-
-> **Source**: Aggregated dataset with air quality data from Asian cities, including Kazakhstan.
-Link for Kaggle dataset https://www.kaggle.com/datasets/shruthiiiee/asia-2023-air-report-2000-cities
-
----
+## 📁 Dataset  
+- **Source**: [Asia 2023 Air Report – Kaggle](https://www.kaggle.com/datasets/shruthiiiee/asia-2023-air-report-2000-cities)  
+- **Key Features**:  
+  - `Rank`, `City`, `Country`, `2023` (annual average)  
+  - Monthly PM2.5 levels: `Jan`, `Feb`, `Mar`, `Apr`, `May`, `Jun`, `Jul`, `Aug`, `Sep`, `Oct`, `Nov`, `Dec`
 
 ## 🧹 Steps Performed
 
-### 1. Data Cleaning
-- Checked for missing values and filled using **mean** or **linear interpolation**
-- Removed duplicates
-- Converted columns to appropriate data types
-- Standardized city names and month formats
+### 1. Data Cleaning  
+- Handled missing values via mean imputation and linear interpolation  
+- Removed duplicate records  
+- Converted month columns to numeric types  
+- Standardized city names
 
-### 2. Exploratory Data Analysis (EDA)
-- Visualized monthly PM2.5 trends using **line plots**
-- Compared city-wise annual averages with **bar charts**
-- Heatmaps of seasonal variation
+### 2. Exploratory Data Analysis (EDA)  
+- Line plots for monthly trends  
+- Bar charts for city-wise yearly averages  
+- Heatmaps showing seasonal variation across cities
+
+## ⚙️ Installation Instructions  
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/yourrepository.git
+
+# 2. Navigate into the project directory
+cd yourrepository
+
+# 3. (Optional) Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# 4. Install dependencies
+pip install -r requirements.txt
+
+# 5. Launch Jupyter Notebook
+jupyter notebook
