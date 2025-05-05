@@ -45,7 +45,7 @@ Air pollution poses significant health risks, particularly fine particulate matt
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/bochida/Air-quality-analysis-and-prediction_19P.git
 
 # 2. Navigate into the project directory
 cd yourrepository
