@@ -41,14 +41,22 @@ Air pollution poses significant health risks, particularly fine particulate matt
 - Bar charts for city-wise yearly averages  
 - Heatmaps showing seasonal variation across cities
 
+
+### 3. Prediction and Modeling
+- Used monthly PM2.5 values (Jan–Dec) to predict the annual average (2023) for Kazakhstani cities
+- Models: Linear Regression, Random Forest, LightGBM, CatBoost, XGBoost
+- Evaluation metrics: MAE, RMSE, R², Cross-Validated R²
+- Best performance: CatBoost (MAE: 17.88, R²: 0.102)
+- Insight: Low model performance due to data inconsistencies or mismatch between monthly and annual values
+
 ## ⚙️ Installation Instructions  
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/bochida/Air-quality-analysis-and-prediction_19P.git
 
 # 2. Navigate into the project directory
-cd yourrepository
+cd Air-quality-analysis-and-prediction_19P
 
 # 3. (Optional) Create a virtual environment
 python -m venv venv
@@ -59,3 +67,10 @@ pip install -r requirements.txt
 
 # 5. Launch Jupyter Notebook
 jupyter notebook
+```
+# Team members:
+###  Daniyarov Alizhan, 220103365, 19P
+###  Tapisheva Aruzhan, 220103262, 19P
+###  Sabetov Mirat, 220103346, 19P
+###  Bayazit Madina 220103259, 19P
+###  Torgay Orken, 220103167, 19P
