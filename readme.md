@@ -68,9 +68,3 @@ pip install -r requirements.txt
 # 5. Launch Jupyter Notebook
 jupyter notebook
 ```
-# Team members:
-###  Daniyarov Alizhan, 220103365, 19P
-###  Tapisheva Aruzhan, 220103262, 19P
-###  Sabetov Mirat, 220103346, 19P
-###  Bayazit Madina 220103259, 19P
-###  Torgay Orken, 220103167, 19P
